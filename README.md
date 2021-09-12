@@ -1,8 +1,10 @@
 # Assembly Exemplos
+
 Códigos em Assembly prara estudar
 
 # Introdução
 Usando o TASM como Assembler (Montador)
+
 ```assembly
 
 .MODEL SMALL    ; define o modelo de memoria a usar em nosso programa
@@ -16,7 +18,9 @@ END             ; finaliza um programa assembly
 ```
 
 ## Exemplo 01
+
 Usado para mudar o tamanho do curso. Porém tem algum erro.
+
 ````assembly
 
 .MODEL SMALL        ; modelo de memória
@@ -32,5 +36,3 @@ x db 1
 END                 ; finaliza o código do programa
 
 ````
-
-
